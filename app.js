@@ -24,18 +24,18 @@ const data = [{
     },
     {
         name: 'Jack Williams',
-        age: 33,
+        age: 21,
         gender: 'male',
         lookingFor: 'female',
-        location: 'England LDN',
+        location: 'England LO',
         image: "https://randomuser.me/api/portraits/men/1.jpg"
     },
     {
         name: 'Sarah Monroe',
-        age: 21,
+        age: 24,
         gender: 'female',
         lookingFor: 'male',
-        location: 'England MAN',
+        location: 'England MA',
         image: "https://randomuser.me/api/portraits/women/20.jpg"
     },
     {
@@ -43,8 +43,16 @@ const data = [{
         age: 25,
         gender: 'male',
         lookingFor: 'female',
-        location: 'Ireland DUB',
+        location: 'Ireland DB',
         image: "https://randomuser.me/api/portraits/men/24.jpg"
+    },
+    {
+        name: 'Li Yang',
+        age: 26,
+        gender: 'female',
+        lookingFor: 'male',
+        location: 'England LP',
+        image: "https://randomuser.me/api/portraits/women/17.jpg"
     }
 ];
 
