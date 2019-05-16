@@ -4,7 +4,7 @@ const data = [{
         gender: 'male',
         lookingFor: 'female',
         location: 'Boston MA',
-        image: "https://randomuser.me/api/portraits/men/82.jpg"
+        image: "https://randomuser.me/api/portraits/men/65.jpg"
 
     },
 
@@ -54,6 +54,10 @@ function nextProfile() {
      <ul class = "list-group">
         <li class="list-group-item">Preference: ${currentProfile.gender} looking for ${currentProfile.lookingfor}</li>
     </ul>
+    `;
+    
+    document.getElementById('imageDisplay').innerHTML = `
+        <img src="${currentProfile.image}">
     `;
 }
 
