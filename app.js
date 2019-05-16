@@ -5,9 +5,7 @@ const data = [{
         lookingFor: 'female',
         location: 'Boston MA',
         image: "https://randomuser.me/api/portraits/men/65.jpg"
-
     },
-
     {
         name: 'Jen Smith',
         age: 26,
@@ -15,9 +13,7 @@ const data = [{
         lookingFor: 'male',
         location: 'Miami FL',
         image: "https://randomuser.me/api/portraits/women/82.jpg"
-
     },
-
     {
         name: 'William Johnson',
         age: 38,
@@ -32,6 +28,9 @@ const data = [{
 
 
 const profiles = profileIterator(data);
+
+// Call first profile
+nextProfile();
 
 // Next Event
 document.getElementById('next').addEventListener('click', nextProfile);
