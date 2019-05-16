@@ -74,7 +74,7 @@ function nextProfile() {
             <li class="list-group-item">Location: ${currentProfile.location}</li>
         </ul>
         <ul class = "list-group">
-            <li class="list-group-item">Preference: ${currentProfile.gender} looking for ${currentProfile.lookingfor}</li>
+            <li class="list-group-item">Preference: ${currentProfile.gender} looking for ${currentProfile.lookingFor}</li>
         </ul>
         `;
 
