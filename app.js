@@ -21,9 +21,31 @@ const data = [{
         lookingFor: 'female',
         location: 'Lynn MA',
         image: "https://randomuser.me/api/portraits/men/83.jpg"
-
+    },
+    {
+        name: 'Jack Williams',
+        age: 33,
+        gender: 'male',
+        lookingFor: 'female',
+        location: 'England LDN',
+        image: "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+        name: 'Sarah Monroe',
+        age: 21,
+        gender: 'female',
+        lookingFor: 'male',
+        location: 'England MAN',
+        image: "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    {
+        name: 'Simen O\'Reilly',
+        age: 25,
+        gender: 'male',
+        lookingFor: 'female',
+        location: 'Ireland DUB',
+        image: "https://randomuser.me/api/portraits/men/24.jpg"
     }
-
 ];
 
 
